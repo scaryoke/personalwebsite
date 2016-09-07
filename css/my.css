@@ -1,0 +1,139 @@
+/*
+Name : John Schultz
+Class : 1300-850
+Assign# : 12
+Due : November 16, 2015
+Description: This assignment is for the first page of my semester project
+*/
+
+/*CSS for the body*/
+body {
+    font: 115% "Times New Roman", serif;
+    /*this is the new stuff*/
+    width: 95%;
+    max-width: 1200px;
+    margin: 15px;
+}
+
+/*CSS for the header*/
+header {
+    font-variant: small-caps;
+    text-align: center;
+    /*green is my favorite color*/
+    background-color: green;
+}
+
+/*CSS for the nav */
+nav {
+    text-align: center;
+    /*this is the new stuff*/
+    margin-bottom: 15px;
+}
+
+    /*CSS for the nav ul */
+    nav ul {
+        font-variant: small-caps;
+        /*this is the new stuff*/
+        list-style-type: none;
+        margin: 0px;
+    }
+        /*CSS for the nav ul li */
+        nav ul li {
+            font-weight: bold;
+            display: inline;
+            /*this is the new stuff*/
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+            /*CSS for the nav ul li a*/
+            nav ul li a {
+                text-decoration: none;
+            }
+                /*CSS for the hover*/
+                nav ul li a:hover {
+                    text-decoration: none;
+                    font-weight: bold;
+                    background-color: red;
+                    color: yellow;
+                }
+/*CSS for the information*/
+section.information {
+    /*this is the new stuff*/
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    /*CSS for the h1*/
+    section.information h1 {
+        /*color: rgb(0,0,255);*/
+        font: 25px arial bold, sans-serif;
+        /*this is the new stuff*/
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    /*CSS for the h2 this was created so there would be no violations*/
+    section.information h2 {
+        font: 20px arial bold, sans-serif;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    /*CSS for the aside*/
+    section.information aside {
+        background-color: silver;
+        font: 12px arial bold, sans-serif;
+    }
+    section.information p {
+        font: 16px arial, sans-serif;
+    }
+/*CSS for the footer*/
+footer {
+    text-align: center;
+    color: red;
+    font-size: 85%;
+    /*this is the new stuff*/
+    clear: right;
+    clear: left;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: #ececec;
+}
+/*CSS for the td:hover*/
+section.information td:hover {
+    background-color: red;
+}
+/*CSS for the aboutme, quotes and schedule. I had to google this to see how to get it to work*/
+#thewholefamily, #thetruestar, #therestofthem, #theparents {
+    width: 60%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+/*CSS for the img tag*/
+#thewholefamily img {
+    width: 100%;
+    float: none;
+    margin-right: 10px;
+}
+/*Had to create separate items for each image. I'm not sure why, but I'm not going to argue with magic*/
+#thetruestar img {
+    width: 100%;
+    float: none;
+    margin-right: 10px;
+}
+
+/*Had to create separate items for each image. I'm not sure why, but I'm not going to argue with magic*/
+#theparents img {
+    width: 100%;
+    height: 50%;
+    float: none;
+    margin-right: 10px;
+}
+/*Had to create separate items for each image. I'm not sure why, but I'm not going to argue with magic*/
+#therestofthem img {
+    width: 100%;
+    float: none;
+    margin-right: 10px;
+}
