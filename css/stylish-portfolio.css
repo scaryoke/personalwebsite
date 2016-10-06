@@ -187,6 +187,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
+    opacity: .7;
     background: url(../images/hermanos.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -253,4 +254,18 @@ footer {
 
 .img-circle {
     border-radius: 50%;
+}
+
+.bg-green {
+    background-color: #6B8D5A;
+}
+
+.color-green {
+    color: #6B8D5A;
+}
+a.color-green {
+    color: #6B8D5A;
+}
+a:hover.green {
+    color: #365308;
 }
